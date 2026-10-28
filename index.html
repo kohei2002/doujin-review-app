@@ -37,6 +37,9 @@ $('parseUrl').onclick=async()=>{
 
     if(item.title)$('title').value=item.title;
     if(item.maker)$('maker').value=item.maker;
+    
+
+    if(item.genre)$('genre').value=item.genre;
 
     if(item.date){
       const d=item.date.slice(0,10);
